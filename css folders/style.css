@@ -1,0 +1,448 @@
+*{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+body{
+     background-color: #FFFFFF;
+     font-family: 'Poppins', sans-serif;
+     padding-bottom: 95px;
+     padding-top: 40px;
+}
+
+header{
+     margin-bottom: 78px;
+}
+
+a{
+      text-decoration: none;
+     color: rgb(7, 15, 24);
+     font-size: 16px;
+     font-weight: 400;
+}
+
+nav ul{
+     list-style: none;
+}
+
+h1{
+      font-weight: 700;
+      font-size: 55px;
+      max-width: 580px;
+}
+
+h2{
+     max-width: 329px;
+}
+
+.matches-title{
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+}
+
+.good-plan{
+   min-width: 420px;
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 54px;
+}
+
+input[type=email]{
+background: rgb(245, 246, 251);
+height: 52px;
+width: 299px;
+font-size: 16px;
+font-weight: 400;
+padding-left: 24px;
+border-radius: 50px;
+border: none;
+ }
+
+.container{
+     margin: 0 auto;
+     max-width: 1357px;
+     padding: 0 40px;
+}
+
+.flex-between {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.flex-center{
+     display: flex;
+     align-items: center;
+     gap: 12px;
+}
+
+.header-ul{
+     gap: 60px;
+}
+
+.nav-hover:hover{
+     font-weight: 600;
+}
+
+.active{
+     font-weight: 600;
+}
+
+.header-button{
+     background-color: rgb(245, 246, 251);
+     border-radius: 50px;
+     padding: 10px 35px;
+  }
+
+.payroll{
+      margin-top: 78px;
+  }
+
+.manage-payroll{
+     margin-bottom: 176px;
+     margin-left: 48px;
+     margin-right: 160px;
+     margin-top: 26px;
+  }
+
+.manage-payroll p{
+      max-width: 425px;
+      font-weight: 400;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-size: 16px;
+      line-height: 32px;
+  }
+
+.get-started{
+     background-color: rgb(31, 124, 255 );
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 14px 30px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+}
+
+.get-started:hover{
+    background-color: rgb(18, 110, 238);
+
+}
+
+.data-images{
+      background-image: url(../images/girl-image.jpg);
+      background-repeat: no-repeat;
+      width: 691px;
+      height: 491px;
+
+}
+.flex-start{
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+}
+
+.analytics{
+      background-color: #FFFFFF;
+      border-radius: 16px;
+      padding: 20px;
+      position: relative;
+      bottom: 32px;
+      right: 119px;
+      box-shadow: -7px 9px 18px 0px rgba(0, 0, 0, 0.05);
+}
+
+.bulk-export{
+      background-color: #FFFFFF;
+      border-radius: 16px;
+      padding: 10px 20px;
+      position: relative;
+      bottom: 134px;
+      right: 16px;
+      box-shadow:7px 9px 18px 0px rgba(0, 0, 0, 0.05);
+}
+
+.work-better{
+    flex-direction: column;
+    margin-top: 140px;
+    text-align: center;
+}
+.orange-color{
+     font-weight: 600;
+     color: rgb(7, 15, 24 );
+     font-size: 28px;
+}
+
+.logos{
+     display: flex;
+     justify-content: space-between;
+     margin-right: 35px;
+     margin-left: 50px;
+}
+
+.logos p{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;            
+     max-width: 150px;
+}
+
+.brands{
+     gap: 50px;
+     display: flex;
+ }
+
+.matches{
+     flex-wrap: wrap;
+}
+
+.gray-p{
+color: rgb(87, 84, 85);
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+max-width: 395px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+.orange-color{
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: rgb(247, 92, 78);
+}
+
+.matche{
+     margin-bottom: 60px;
+}
+
+.matches-paragraphe{
+     max-width: 261px;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 32px;
+     letter-spacing: 0.94px;
+     
+}
+.form{
+     display: flex;
+     overflow: hidden;
+     border-radius: 50px;
+     border: 1px solid transparent;
+     background: rgb(245, 246, 251);
+}
+
+.save{
+     display: flex;
+     align-items: center;
+     justify-content:space-around;
+     margin-top: 70px;
+}
+
+.video{
+     opacity: 70%;
+}
+
+.video:hover{
+     cursor: pointer;
+     transform: scale(1.1);
+     opacity: 100%;
+}
+
+.screen{
+background-image: url("../images/image-play.jpg");
+width: 636px;
+height: 450px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50px;
+background-repeat: no-repeat;
+}
+
+/*tablet*/
+@media  (max-width:  835px) {
+   body {
+    margin: 0;
+    padding-bottom:72px;
+    overflow-x: hidden;
+ }
+
+ nav{
+     display: none;
+ }
+
+ .data-images{
+     display: none;
+ }
+
+ .manage-payroll{
+     text-align: center;
+     margin-left: 55px;
+     margin-right: 55px;
+     margin-bottom: 70px;
+     padding: 0 40px;
+ }
+
+ .manage-payroll p{
+     max-width: 434px;
+     margin-left: 65px;
+ }
+
+ .logos{
+     flex-direction: column;
+     align-items: center;
+     margin: 0;
+ }
+
+ .logos p{
+     max-width: 245px;
+     margin-bottom: 30px;
+ }
+
+.save {
+flex-direction: column;
+ }
+
+ .matches{
+     display: flex;
+     justify-content: center;
+     column-gap: 32px;
+ }
+
+ .input{
+     text-align: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 45px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .gray-p{
+     max-width: 388px;
+ }
+
+ .screen{
+     width: 665px;
+     height: 471px;
+ }
+}
+/*mobile*/
+@media (min-width: 320px) and (max-width: 430px){
+body{
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     width: 100%;
+     overflow-x: hidden;
+}
+
+h1{
+     font-size: 38px;
+     line-height: 57px;
+}
+
+h2{
+     text-align: center;
+     font-size: 28px;
+}
+
+.good-plan{
+     font-size: 29px;
+}
+
+.container{
+     padding: 0 28px  ;
+}
+
+.header-button{
+     display: none;
+}
+
+.manage-payroll{
+     text-align:start;
+     margin: 0;
+     padding: 0;
+}
+
+.manage-payroll p{
+     margin-left: 0;
+}
+
+.logos{
+     margin-top: 50px;
+     align-items: start;
+}
+
+ .google {
+     width: 80px;
+ }
+
+ .apple {
+   width: 77px;
+ }
+
+ .adobe {
+     width: 110px;
+ }
+
+ .slack {
+     width: 104px;
+ }
+
+ .spotify {
+     width: 88px;
+ }
+
+ 
+.brands{
+     display: flex;
+     gap: 23px;
+     flex-wrap: wrap;
+ }
+
+.work-better{
+     margin-top: 52px;
+     }
+
+ .gray-p{
+      max-width: 313px;
+     }
+
+.flex-start{
+     gap: 8px;
+}
+
+.save{
+     margin-top: 20px;
+}
+
+.screen{
+     background-size: 320px;
+     width: 321px;
+     height: 227px;
+     border-radius: 20px;
+}
+
+.video{
+     width: 50px;
+}
+
+input[type=submit] {
+     width: 299px;
+}
+
+.form {
+     border-radius: 0;
+     background-color: transparent;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 15px;
+}
+
+}
