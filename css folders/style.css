@@ -268,9 +268,8 @@ background-repeat: no-repeat;
 @media  (max-width:  835px) {
    body {
     margin: 0;
-    padding-bottom:72px;
+    padding-bottom: 72px;
     overflow-x: hidden;
-    padding: 40px 0;
  }
 
  nav{
@@ -337,7 +336,7 @@ flex-direction: column;
 @media (min-width: 320px) and (max-width: 430px){
 body{
      margin: 0;
-     padding: 0;
+     padding: 40px 0;
      height: 100%;
      width: 100%;
      overflow-x: hidden;
