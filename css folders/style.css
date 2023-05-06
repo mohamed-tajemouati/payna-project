@@ -215,7 +215,7 @@ color: rgb(247, 92, 78);
      font-weight: 600;
      line-height: 30px;
      }
-     
+
 .matche{
      margin-bottom: 60px;
 }
@@ -243,11 +243,11 @@ color: rgb(247, 92, 78);
      margin-top: 70px;
 }
 
-.video{
+.btn-pay{
      opacity: 70%;
 }
 
-.video:hover{
+.btn-play:hover{
      cursor: pointer;
      transform: scale(1.1);
      opacity: 100%;
