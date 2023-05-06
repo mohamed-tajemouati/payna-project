@@ -36,12 +36,6 @@ h2{
      max-width: 329px;
 }
 
-.matches-title{
-font-size: 20px;
-font-weight: 600;
-line-height: 30px;
-}
-
 .good-plan{
    min-width: 420px;
      font-size: 36px;
@@ -194,11 +188,7 @@ border: none;
      gap: 50px;
      display: flex;
  }
-
-.matches{
-     flex-wrap: wrap;
-}
-
+     
 .gray-p{
 color: rgb(87, 84, 85);
 font-size: 16px;
@@ -216,6 +206,16 @@ line-height: 24px;
 color: rgb(247, 92, 78);
 }
 
+.matches{
+     flex-wrap: wrap;
+}
+
+.matches-title{
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+     }
+     
 .matche{
      margin-bottom: 60px;
 }
