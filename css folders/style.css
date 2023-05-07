@@ -234,7 +234,7 @@ background-repeat: no-repeat;
 input[type=email]{
      background: rgb(245, 246, 251);
      height: 52px;
-     width: 299px;
+     flex: 1;
      padding: 0 24px;
      border: none;
      outline: none;
