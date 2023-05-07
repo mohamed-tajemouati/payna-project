@@ -94,7 +94,7 @@ h1{
      background-color: rgb(31, 124, 255 );
       color: #FFFFFF;
       font-weight: 600;
-      padding: 14px 30px;
+      padding: 18px 50px;
       border: none;
       cursor: pointer;
 }
@@ -136,7 +136,7 @@ h1{
 }
 
 .work-better{
-    margin-top: 140px;
+    margin: 140px 0 70px;
     text-align: center;
 }
 
@@ -162,6 +162,7 @@ h1{
 .brands{
      gap: 50px;
      display: flex;
+     flex-wrap: wrap;
  }
      
 .gray-p{
@@ -179,6 +180,8 @@ color: rgb(247, 92, 78);
 
 .matches{
      flex-wrap: wrap;
+     column-gap: 75px;
+     justify-content: flex-start;
 }
 
 .matches-title{
@@ -369,9 +372,7 @@ h1{
 
  
 .brands{
-     display: flex;
      gap: 23px;
-     flex-wrap: wrap;
  }
 
 .work-better{
