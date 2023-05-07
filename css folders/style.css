@@ -5,7 +5,6 @@
 }
 
 body{
-     background-color: #FFFFFF;
      font-family: 'Poppins', sans-serif;
      padding-bottom: 95px;
      padding-top: 40px;
@@ -19,10 +18,9 @@ a{
       text-decoration: none;
      color: rgb(7, 15, 24);
      font-size: 16px;
-     font-weight: 400;
 }
 
-nav ul{
+nav li{
      list-style: none;
 }
 
@@ -32,32 +30,16 @@ h1{
       max-width: 580px;
 }
 
-h2{
-     max-width: 329px;
-}
-
-.good-plan{
-   min-width: 420px;
-     font-size: 36px;
-     font-weight: 700;
-     line-height: 54px;
-}
-
-input[type=email]{
-background: rgb(245, 246, 251);
-height: 52px;
-width: 299px;
-font-size: 16px;
-font-weight: 400;
-padding-left: 24px;
-border-radius: 50px;
-border: none;
- }
-
 .container{
      margin: 0 auto;
      max-width: 1357px;
      padding: 0 40px;
+}
+
+.flex-start{
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
 }
 
 .flex-between {
@@ -70,6 +52,10 @@ border: none;
      display: flex;
      align-items: center;
      gap: 12px;
+}
+
+.border-radius{
+     border-radius: 50px;
 }
 
 .header-ul{
@@ -86,7 +72,6 @@ border: none;
 
 .header-button{
      background-color: rgb(245, 246, 251);
-     border-radius: 50px;
      padding: 10px 35px;
   }
 
@@ -95,18 +80,13 @@ border: none;
   }
 
 .manage-payroll{
-     margin-bottom: 176px;
-     margin-left: 48px;
-     margin-right: 160px;
-     margin-top: 26px;
+     margin: 26px 160px 176px 46px;
   }
 
 .manage-payroll p{
       max-width: 425px;
-      font-weight: 400;
       margin-top: 20px;
       margin-bottom: 30px;
-      font-size: 16px;
       line-height: 32px;
   }
 
@@ -114,9 +94,7 @@ border: none;
      background-color: rgb(31, 124, 255 );
       color: #FFFFFF;
       font-weight: 600;
-      font-size: 16px;
       padding: 14px 30px;
-      border-radius: 50px;
       border: none;
       cursor: pointer;
 }
@@ -133,11 +111,6 @@ border: none;
       height: 491px;
 
 }
-.flex-start{
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-}
 
 .analytics{
       background-color: #FFFFFF;
@@ -148,6 +121,10 @@ border: none;
       right: 119px;
       box-shadow: -7px 9px 18px 0px rgba(0, 0, 0, 0.05);
 }
+.small-p{
+     font-size: 14px;
+     color: gray;
+}
 
 .bulk-export{
       background-color: #FFFFFF;
@@ -155,20 +132,19 @@ border: none;
       padding: 10px 20px;
       position: relative;
       bottom: 134px;
-      right: 16px;
       box-shadow:7px 9px 18px 0px rgba(0, 0, 0, 0.05);
 }
 
 .work-better{
-    flex-direction: column;
     margin-top: 140px;
     text-align: center;
 }
-.orange-color{
-     font-weight: 600;
-     color: rgb(7, 15, 24 );
-     font-size: 28px;
-}
+
+.good-plan{
+       font-size: 36px;
+       font-weight: 700;
+       line-height: 54px;
+  }
 
 .logos{
      display: flex;
@@ -178,7 +154,6 @@ border: none;
 }
 
 .logos p{
-     font-size: 16px;
      font-weight: 600;
      line-height: 24px;            
      max-width: 150px;
@@ -190,17 +165,13 @@ border: none;
  }
      
 .gray-p{
-color: rgb(87, 84, 85);
-font-size: 16px;
-font-weight: 400;
+color: rgb(87, 84, 85); 
 line-height: 32px;
 max-width: 395px;
-margin-bottom: 30px;
-margin-top: 20px;
+margin: 30px auto;
 }
 
 .orange-color{
-font-size: 16px;
 font-weight: 700;
 line-height: 24px;
 color: rgb(247, 92, 78);
@@ -218,39 +189,29 @@ color: rgb(247, 92, 78);
 
 .matche{
      margin-bottom: 60px;
+     gap: 24px;
 }
 
 .matches-paragraphe{
      max-width: 261px;
-     font-size: 16px;
-     font-weight: 400;
      line-height: 32px;
-     letter-spacing: 0.94px;
-     
-}
-.form{
-     display: flex;
-     overflow: hidden;
-     border-radius: 50px;
-     border: 1px solid transparent;
-     background: rgb(245, 246, 251);
 }
 
 .save{
      display: flex;
      align-items: center;
-     justify-content:space-around;
+     justify-content: space-around;
      margin-top: 70px;
 }
 
-.btn-pay{
-     opacity: 70%;
+.btn-play{
+     opacity: .7;
 }
 
 .btn-play:hover{
      cursor: pointer;
      transform: scale(1.1);
-     opacity: 100%;
+     opacity: 1;
 }
 
 .screen{
@@ -260,9 +221,24 @@ height: 450px;
 display: flex;
 justify-content: center;
 align-items: center;
-border-radius: 50px;
 background-repeat: no-repeat;
 }
+
+.form{
+     display: flex;
+     overflow: hidden;
+     border: none;
+     background: rgb(245, 246, 251);
+}
+
+input[type=email]{
+     background: rgb(245, 246, 251);
+     height: 52px;
+     width: 299px;
+     padding: 0 24px;
+     border: none;
+     outline: none;
+      }
 
 /*tablet*/
 @media  (max-width:  835px) {
@@ -317,7 +293,6 @@ flex-direction: column;
  .input{
      text-align: center;
      align-items: center;
-     text-align: center;
      margin-top: 45px;
      display: flex;
      flex-direction: column;
@@ -333,13 +308,11 @@ flex-direction: column;
  }
 }
 /*mobile*/
-@media (min-width: 320px) and (max-width: 430px){
+@media (max-width: 430px){
 body{
-     margin: 0;
      padding: 40px 0;
      height: 100%;
      width: 100%;
-     overflow-x: hidden;
 }
 
 h1{
@@ -347,13 +320,8 @@ h1{
      line-height: 57px;
 }
 
-h2{
-     text-align: center;
-     font-size: 28px;
-}
-
 .good-plan{
-     font-size: 29px;
+     font-size: 27px;
 }
 
 .container{
@@ -414,10 +382,6 @@ h2{
       max-width: 313px;
      }
 
-.flex-start{
-     gap: 8px;
-}
-
 .save{
      margin-top: 20px;
 }
@@ -429,7 +393,7 @@ h2{
      border-radius: 20px;
 }
 
-.video{
+.btn-play{
      width: 50px;
 }
 
@@ -438,11 +402,11 @@ input[type=submit] {
 }
 
 .form {
-     border-radius: 0;
      background-color: transparent;
      flex-wrap: wrap;
      justify-content: center;
      gap: 15px;
+     overflow: visible;
 }
 
 }
